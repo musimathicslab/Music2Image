@@ -52,8 +52,7 @@ Questo progetto utilizza tecnologie di intelligenza artificiale per generare imm
 
 Di seguito sono riportati alcuni esempi di immagini generate utilizzando il testo del brano "Yellow Submarine" dei Beatles.
 
-![Immagine 1]([link_immagine_1](https://imgur.com/a/S3Y5jqo))
-
+![Immagine 1](https://i.imgur.com/COoMSwT.png)
 
 
 ## Documentazione
