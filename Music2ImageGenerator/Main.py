@@ -89,6 +89,6 @@ def transcribe_audio_in_intervals(audio_path, interval_duration=20):
 
 
 # Specificare il path dell'audio
-audio_path = "..."
+audio_path = ""
 # Esegui il processo
 transcribe_audio_in_intervals(audio_path)
