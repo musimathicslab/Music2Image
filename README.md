@@ -16,6 +16,37 @@ Questo progetto utilizza tecnologie di intelligenza artificiale per generare imm
 4. **Generazione delle Immagini**:
    - Il testo sintetizzato viene passato a **Stable Diffusion**, un modello di intelligenza artificiale per la generazione di immagini. Questo modello è progettato per interpretare il testo e generare immagini coerenti con i contenuti descritti.
    - Le immagini vengono create in tempo reale e possono essere proiettate su uno schermo LED o visualizzate in altre modalità interattive.
+  
+## Istruzioni per l'Installazione
+
+1. Clona il repository:
+   ```bash
+   git clone https://github.com/musimathicslab/Music2Image
+2. Naviga nella cartella del progetto:
+   ```bash   
+   cd Music2Image\Music2ImageGenerator
+3. Installa le dipendenze:
+    ```bash   
+   pip install -r requirements.txt
+4. Esegui il codice
+   
+**Nota**: Alcune librerie, come quelle per la scheda video, potrebbero richiedere versioni specifiche. Assicurati di controllare la compatibilità con il tuo hardware.
+
+
+
+## Configurazione
+**Nel codice, potresti trovare le seguenti righe commentate che potrebbero essere necessarie:**
+``` python
+   #Specificare il percorso completo di ffmpeg se pydub non riesce a trovarlo
+   #AudioSegment.converter = ""
+   #AudioSegment.ffprobe = ""
+   ```
+
+   Inoltre, assicurati di specificare il percorso dell'audio desiderato:
+   ``` python
+   # Specificare il path dell'audio
+   audio_path = "..."
+   ```
 
 ## Documentazione
 Per ulteriori dettagli sul funzionamento si rimanda alla cartella "documentation".
