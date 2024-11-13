@@ -1,5 +1,5 @@
 # Music2Image
-Music2Image è un applicazione che è stata sviluppata da A. Salzano "Musica Algoritmica e Sound Computing" durante l'anno accademico 2023/2024.
+Music2Image è un applicazione che è stata sviluppata da A. Salzano per il corso di "Musica Algoritmica e Sound Computing" durante l'anno accademico 2023/2024.
 
 ## Descrizione
 
